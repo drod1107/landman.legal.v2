@@ -1,0 +1,164 @@
+:root,
+[data-bs-theme="light"] {
+  --bs-primary: #000000;
+  --bs-primary-rgb: 0, 0, 0;
+  --bs-primary-text-emphasis: #000000;
+  --bs-primary-bg-subtle: #cccccc;
+  --bs-primary-border-subtle: #999999;
+  --bs-secondary: #181818;
+  --bs-secondary-rgb: 24, 24, 24;
+  --bs-secondary-text-emphasis: #0a0a0a;
+  --bs-secondary-bg-subtle: #d1d1d1;
+  --bs-secondary-border-subtle: #a3a3a3;
+  --bs-success: #2cccc3;
+  --bs-success-rgb: 44, 204, 195;
+  --bs-success-text-emphasis: #12524e;
+  --bs-success-bg-subtle: #d5f5f3;
+  --bs-success-border-subtle: #abebe7;
+  --bs-info: #facd3d;
+  --bs-info-rgb: 250, 205, 61;
+  --bs-info-text-emphasis: #645218;
+  --bs-info-bg-subtle: #fef5d8;
+  --bs-info-border-subtle: #fdebb1;
+  --bs-warning: #5626c4;
+  --bs-warning-rgb: 86, 38, 196;
+  --bs-warning-text-emphasis: #220f4e;
+  --bs-warning-bg-subtle: #ddd4f3;
+  --bs-warning-border-subtle: #bba8e7;
+  --bs-danger: #e60576;
+  --bs-danger-rgb: 230, 5, 118;
+  --bs-danger-text-emphasis: #5c022f;
+  --bs-danger-bg-subtle: #facde4;
+  --bs-danger-border-subtle: #f59bc8;
+  --bs-link-color: #2cccc3;
+  --bs-link-color-rgb: 44, 204, 195;
+  --bs-link-hover-color: #facd3d;
+  --bs-link-hover-color-rgb: 250, 205, 61;
+  --bs-primary: #c41e3a;
+  --bs-primary-rgb: 196, 30, 58;
+  --bs-primary-text: #ffffff;
+  --bs-primary-bg-subtle: #f6cdd8;
+  --bs-primary-border: #911327;
+  --bs-secondary: #0c2340;
+  --bs-secondary-rgb: 12, 35, 64;
+  --bs-secondary-text: #ffffff;
+  --bs-secondary-bg-subtle: #c8d2e1;
+  --bs-secondary-border: #041a2f;
+  --bs-success: #fedb00;
+  --bs-success-rgb: 254, 219, 0;
+  --bs-success-text: #543b00;
+  --bs-success-bg-subtle: #ffefb8;
+  --bs-success-border: #ca9f00;
+  --bs-info: #ff7300;
+  --bs-info-rgb: 255, 115, 0;
+  --bs-info-text: #633400;
+  --bs-info-bg-subtle: #ffdeb8;
+  --bs-info-border: #cc5c00;
+  --bs-warning: #f1b82d;
+  --bs-warning-rgb: 241, 184, 45;
+  --bs-warning-text: #544915;
+  --bs-warning-bg-subtle: #fcedb3;
+  --bs-warning-border: #c89b23;
+  --bs-danger: #000000;
+  --bs-danger-rgb: 0, 0, 0;
+  --bs-danger-text: #b1afaf;
+  --bs-danger-bg-subtle: #737373;
+  --bs-danger-border: #000000;
+  --bs-light: #ffffff;
+  --bs-light-rgb: 255, 255, 255;
+  --bs-light-text: #545454;
+  --bs-light-bg-subtle: #ffffff;
+  --bs-light-border: #cccccc;
+  --bs-primary: #c41e1e;
+  --bs-primary-rgb: 196, 30, 58;
+  --bs-primary-text: #ffffff;
+  --bs-primary-bg-subtle: #f6cdd8;
+  --bs-primary-border: #911327;
+  --bs-secondary: #0c2340;
+  --bs-secondary-rgb: 12, 35, 64;
+  --bs-secondary-text: #ffffff;
+  --bs-secondary-bg-subtle: #c8d2e1;
+  --bs-primary-border-subtle: #c8d2e1;
+  --bs-secondary-border: #041a2f;
+  --bs-success: #fedb00;
+  --bs-success-rgb: 254, 219, 0;
+  --bs-success-text: #543b00;
+  --bs-success-bg-subtle: #ffefb8;
+  --bs-success-border: #ca9f00;
+  --bs-info: #ff7300;
+  --bs-info-rgb: 255, 115, 0;
+  --bs-info-text: #633400;
+  --bs-info-bg-subtle: #ffdeb8;
+  --bs-info-border: #cc5c00;
+  --bs-warning: #f1b82d;
+  --bs-warning-rgb: 241, 184, 45;
+  --bs-warning-text: #544915;
+  --bs-warning-bg-subtle: #fcedb3;
+  --bs-warning-border: #c89b23;
+  --bs-danger: #000000;
+  --bs-danger-rgb: 0, 0, 0;
+  --bs-danger-text: #b1afaf;
+  --bs-danger-bg-subtle: #737373;
+  --bs-danger-border: #000000;
+  --bs-light: #ffffff;
+  --bs-light-rgb: 255, 255, 255;
+  --bs-light-text: #545454;
+  --bs-light-bg-subtle: #ffffff;
+  --bs-light-border: #cccccc;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #000000;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #000000;
+  --bs-btn-hover-border-color: #000000;
+  --bs-btn-focus-shadow-rgb: 217, 217, 217;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #000000;
+  --bs-btn-active-border-color: #000000;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #000000;
+  --bs-btn-disabled-border-color: #000000;
+}
+#about {
+  background-color: #5626c4;
+}
+.ms-auto {
+  margin-left: 0 !important;
+}
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+#fbLogo {
+  min-width: 20px;
+  min-height: auto;
+  width: 50px;
+  height: auto;
+}
+.bs-icon {
+  --bs-icon-size: 0.75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+.bs-icon.bs-icon-rounded {
+  border-radius: 0.5rem;
+}
+#main {
+  height: 100vh;
+  background: url("../../assets/img/probate.jpg") center/cover no-repeat;
+  position: relative;
+}
