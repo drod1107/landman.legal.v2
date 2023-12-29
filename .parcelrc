@@ -1,0 +1,7 @@
+{
+  "transforms": {
+    "@parcel/transformer-html": {
+      "minifier": "htmlnano" 
+    }
+  }
+}
