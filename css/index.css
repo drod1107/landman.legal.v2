@@ -98,7 +98,7 @@
   position: absolute;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: --bs-gray-300;
 }
 .header1-nav1 {
   display: flex;

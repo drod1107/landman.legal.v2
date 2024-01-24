@@ -7,7 +7,7 @@
  */
 :root,
 [data-bs-theme="light"] {
-  --bs-blue: #0d6efd;
+  --bs-blue: #3331c6;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -29,15 +29,15 @@
   --bs-gray-600: #868e96;
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
-  --bs-primary: #f05f40;
+  --bs-gray-900: #3331c6
+  --bs-primary: #000033;
   --bs-secondary: #868e96;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-dark: #3331c6
   --bs-primary-rgb: 240, 95, 64;
   --bs-secondary-rgb: 134, 142, 150;
   --bs-success-rgb: 25, 135, 84;
@@ -86,7 +86,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #3331c6
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg: #fff;
   --bs-body-bg-rgb: 255, 255, 255;
@@ -101,13 +101,13 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
-  --bs-link-color: #f05f40;
+  --bs-link-color: #000033;
   --bs-link-color-rgb: 240, 95, 64;
   --bs-link-decoration: underline;
   --bs-link-hover-color: #c04c33;
   --bs-link-hover-color-rgb: 192, 76, 51;
   --bs-code-color: #d63384;
-  --bs-highlight-color: #212529;
+  --bs-highlight-color: #3331c6
   --bs-highlight-bg: #fff3cd;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -703,19 +703,19 @@ textarea.form-control {
 }
 .btn-primary {
   --bs-btn-color: #000;
-  --bs-btn-bg: #f05f40;
-  --bs-btn-border-color: #f05f40;
+  --bs-btn-bg: #000033;
+  --bs-btn-border-color: #000033;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #f2775d;
   --bs-btn-hover-border-color: #f26f53;
   --bs-btn-focus-shadow-rgb: 204, 81, 54;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #f37f66;
+  --bs-btn-active-bg: #000033;
   --bs-btn-active-border-color: #f26f53;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #f05f40;
-  --bs-btn-disabled-border-color: #f05f40;
+  --bs-btn-disabled-bg: #000033;
+  --bs-btn-disabled-border-color: #000033;
 }
 .btn-light {
   --bs-btn-color: #000;
@@ -1004,7 +1004,7 @@ textarea.form-control {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: --bs-gray-300;
   text-align: center;
   background: none;
   border: 0;
@@ -1021,7 +1021,7 @@ textarea.form-control {
 .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
+  color: --bs-gray-300;
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
@@ -1070,7 +1070,7 @@ textarea.form-control {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: --bs-gray-300;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -1291,18 +1291,18 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #f05f40;
+  border-color: #000033;
   border-top: 0;
 }
 hr.light {
-  border-color: #fff;
+  border-color: --bs-gray-300;
 }
 a {
-  color: #f05f40;
+  color: #000033;
   transition: all 0.2s;
 }
 a:hover {
-  color: #f05f40;
+  color: #000033;
 }
 h1,
 .h1,
@@ -1327,57 +1327,57 @@ section {
   margin-top: 0;
 }
 ::-moz-selection {
-  color: #fff;
-  background: #212529;
+  color: --bs-gray-300;
+  background: #3331c6
   text-shadow: none;
 }
 ::selection {
-  color: #fff;
-  background: #212529;
+  color: --bs-gray-300;
+  background: #3331c6
   text-shadow: none;
 }
 img::-moz-selection {
-  color: #fff;
+  color: --bs-gray-300;
   background: transparent;
 }
 img::selection {
-  color: #fff;
+  color: --bs-gray-300;
   background: transparent;
 }
 img::-moz-selection {
-  color: #fff;
+  color: --bs-gray-300;
   background: transparent;
 }
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: --bs-gray-300;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   transition: all 0.2s;
 }
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #f05f40;
+  color: #000033;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: #000033;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: #3331c6
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #f05f40;
+  color: #000033;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #f05f40 !important;
+  color: #000033 !important;
   background-color: transparent;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
@@ -1394,7 +1394,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-brand:focus,
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: --bs-gray-300;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -1405,26 +1405,26 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: --bs-gray-300;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    background-color: --bs-gray-300;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #f05f40;
+    color: #000033;
   }
   #mainNav.navbar-shrink .navbar-brand:focus,
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: #000033;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: #3331c6
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #f05f40;
+    color: #000033;
   }
 }
 header.masthead {
@@ -1471,7 +1471,7 @@ header.masthead p {
   max-width: 400px;
 }
 .text-primary {
-  color: #f05f40 !important;
+  color: #000033 !important;
 }
 .btn {
   font-weight: 700;
@@ -1484,14 +1484,14 @@ header.masthead p {
   padding: 1rem 2rem;
 }
 .btn-primary {
-  background-color: #f05f40;
-  border-color: #f05f40;
-  color: #fff;
+  background-color: #000033;
+  border-color: #000033;
+  color: --bs-gray-300;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  color: #fff;
+  color: --bs-gray-300;
   background-color: #e45a3d !important;
 }
 .btn-primary:active,
