@@ -7,7 +7,7 @@
  */
 :root,
 [data-bs-theme="light"] {
-  --bs-blue: #3331c6;
+  --bs-blue: #3331C6;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -29,7 +29,7 @@
   --bs-gray-600: #868e96;
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
-  --bs-gray-900: #3331c6
+  --bs-gray-900: #3331C6
   --bs-primary: #000033;
   --bs-secondary: #868e96;
   --bs-success: #198754;
@@ -37,7 +37,7 @@
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
-  --bs-dark: #3331c6
+  --bs-dark: #3331C6
   --bs-primary-rgb: 240, 95, 64;
   --bs-secondary-rgb: 134, 142, 150;
   --bs-success-rgb: 25, 135, 84;
@@ -86,7 +86,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #3331c6
+  --bs-body-color: #3331C6
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg: #fff;
   --bs-body-bg-rgb: 255, 255, 255;
@@ -104,10 +104,10 @@
   --bs-link-color: #000033;
   --bs-link-color-rgb: 240, 95, 64;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #c04c33;
+  --bs-link-hover-color: #001f3f;
   --bs-link-hover-color-rgb: 192, 76, 51;
   --bs-code-color: #d63384;
-  --bs-highlight-color: #3331c6
+  --bs-highlight-color: #3331C6
   --bs-highlight-bg: #fff3cd;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -706,7 +706,7 @@ textarea.form-control {
   --bs-btn-bg: #000033;
   --bs-btn-border-color: #000033;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #f2775d;
+  --bs-btn-hover-bg: #001f3f;
   --bs-btn-hover-border-color: #f26f53;
   --bs-btn-focus-shadow-rgb: 204, 81, 54;
   --bs-btn-active-color: #000;
@@ -1328,12 +1328,12 @@ section {
 }
 ::-moz-selection {
   color: --bs-gray-300;
-  background: #3331c6
+  background: #0074e4
   text-shadow: none;
 }
 ::selection {
   color: --bs-gray-300;
-  background: #3331c6
+  background: #0074e4
   text-shadow: none;
 }
 img::-moz-selection {
@@ -1369,7 +1369,7 @@ img::-moz-selection {
   font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #3331c6
+  color: #3331C6
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -1420,7 +1420,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #3331c6
+    color: #3331C6
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -1492,7 +1492,7 @@ header.masthead p {
 .btn-primary:focus,
 .btn-primary:active {
   color: --bs-gray-300;
-  background-color: #e45a3d !important;
+  background-color: #001f3f !important;
 }
 .btn-primary:active,
 .btn-primary:focus {

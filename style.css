@@ -21,13 +21,21 @@
   --dl-space-space-doubleunit: 16px;
   --dl-space-space-tripleunit: 24px;
 }
+
+#navLogo {
+  height: 100px !important;
+  width: 100px !important;
+}
+
 .teleport-show {
   display: flex !important;
   transform: none !important;
 }
+
 .list-item {
   display: list-item;
 }
+
 .button {
   color: cornsilk;
   display: inline-block;
@@ -38,6 +46,7 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-500);
 }
+
 .list {
   width: 100%;
   margin: 1em 0px 1em 0px;
@@ -46,6 +55,7 @@
   list-style-type: none;
   list-style-position: outside;
 }
+
 .textarea {
   color: var(--dl-color-gray-black);
   cursor: auto;
@@ -56,6 +66,7 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+
 .input {
   color: var(--dl-color-gray-black);
   cursor: auto;
@@ -66,16 +77,18 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+
 .Section-Text {
-  font-size: px;
+  font-size: 1.5em;
   font-family: "Montserrat";
   font-weight: 400;
   line-height: 1.55;
   text-transform: none;
   text-decoration: none;
 }
+
 .Card-Text {
-  font-size: px;
+  font-size: 1.5em;
   font-style: normal;
   font-family: "Montserrat";
   font-weight: 400;
@@ -83,6 +96,7 @@
   text-transform: none;
   text-decoration: none;
 }
+
 .BigCard-Heading {
   font-size: 21px;
   font-style: normal;
@@ -92,16 +106,18 @@
   text-transform: none;
   text-decoration: none;
 }
+
 .Content {
-  font-size: px;
+  font-size: 1.5em;
   font-family: "Merriweather";
   font-weight: 400;
   line-height: 1.55;
   text-transform: none;
   text-decoration: none;
 }
+
 .Card-Heading {
-  font-size: px;
+  font-size: 1.5em;
   font-style: normal;
   font-family: "Merriweather";
   font-weight: 700;
@@ -109,8 +125,9 @@
   text-transform: none;
   text-decoration: none;
 }
+
 .Anchor {
-  font-size: px;
+  font-size: 1.5em;
   font-style: normal;
   font-family: "Montserrat";
   font-weight: 700;
@@ -118,6 +135,7 @@
   text-transform: capitalize;
   text-decoration: none;
 }
+
 .Section-Heading {
   font-size: 21px;
   font-family: "Merriweather";
