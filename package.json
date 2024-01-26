@@ -8,7 +8,8 @@
     "serve": "parcel index.html"
   },
   "dependencies": {
-    "parcel-bundler": "^1.6.1"
+    "htmlnano": "^2.1.0",
+    "parcel": "^2.10.3"
   },
   "devDependencies": {
     "purgecss": "^5.0.0"
