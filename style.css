@@ -149,3 +149,7 @@
   position: relative;
   max-width: 250px;
 }
+
+#topLine {
+  margin-top: 80px !important;
+}
