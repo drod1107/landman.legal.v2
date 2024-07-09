@@ -4,17 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "parcel-build": "parcel build index.html && cp _redirects ./dist/",
+    "build": "parcel build index.html && cp _redirects ./dist/",
     "serve": "parcel index.html"
   },
   "dependencies": {
-    "htmlnano": "^2.1.0",
-    "parcel": "^2.10.3",
-    "svgo": "^3.3.2"
+    "parcel": "^2.10.3"
   },
   "devDependencies": {
-    "@parcel/packager-raw-url": "^2.10.3",
-    "@parcel/transformer-jsonld": "^2.10.3",
-    "purgecss": "^6.0.0"
+    "@parcel/packager-raw-url": "^2.12.0",
+    "@parcel/transformer-jsonld": "^2.12.0",
+    "purgecss": "^5.0.0"
   }
 }
