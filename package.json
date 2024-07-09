@@ -12,6 +12,8 @@
     "parcel": "^2.10.3"
   },
   "devDependencies": {
-    "purgecss": "^5.0.0"
+    "@parcel/packager-raw-url": "^2.10.3",
+    "@parcel/transformer-jsonld": "^2.10.3",
+    "purgecss": "^6.0.0"
   }
 }
