@@ -1,5 +1,11 @@
 User-agent: *
 Allow: /
 
+# Disallow crawling of specific directories (adjust as necessary)
+Disallow: /node_modules/
+
+# Ensure Google Maps embed is not blocked
+Allow: /maps/embed/v1/
+
 # Sitemap location
 Sitemap: https://www.landman.legal/sitemap.xml
