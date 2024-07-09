@@ -153,3 +153,7 @@
 #topLine {
   margin-top: 80px !important;
 }
+
+.dark-text {
+  color: #000033 !important;
+}
